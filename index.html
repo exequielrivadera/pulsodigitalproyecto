@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulso Digital</title>
+
+
+<title>Pulso Digital</title>
 
 <!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+<!-- CSS propio -->
 <link rel="stylesheet" href="css/estilos.css">
 
 <!-- Scroll suave -->
@@ -25,6 +30,7 @@
         scroll-margin-top: 70px;
     }
 
+    /* Iconos de contacto */
     .contact-icon {
         font-size: 3.5rem;
         margin-bottom: 15px;
@@ -55,86 +61,143 @@
 <body>
 
 
-<!-- Menú de navegación -->
+<!-- ============================= -->
+<!-- MENÚ DE NAVEGACIÓN -->
+<!-- ============================= -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
     <div class="container-fluid">
+
 
         <!-- LOGO -->
         <a class="navbar-brand d-flex align-items-center" href="#inicio">
-            <img src="img/logo.png" alt="Pulso Digital" style="height: 40px;">
+
+            <img src="img/logo.png"
+                 alt="Pulso Digital"
+                 style="height: 40px;">
+
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+
+        <!-- BOTÓN MENÚ MOBILE -->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
                 aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon"></span>
+
         </button>
 
+
+        <!-- MENÚ -->
         <div class="collapse navbar-collapse" id="navbarNav">
+
             <ul class="navbar-nav ms-auto">
 
+
                 <li class="nav-item">
+
                     <a class="nav-link active" href="#inicio">
                         Inicio
                     </a>
+
                 </li>
 
+
                 <li class="nav-item">
+
                     <a class="nav-link" href="#servicios">
                         Servicios
                     </a>
+
                 </li>
 
+
                 <li class="nav-item">
+
                     <a class="nav-link" href="#contacto">
                         Contacto
                     </a>
+
                 </li>
 
+
             </ul>
+
         </div>
 
     </div>
+
 </nav>
 
 
-<!-- Fondo principal -->
-<header id="inicio" class="hero d-flex align-items-center justify-content-center">
+
+<!-- ============================= -->
+<!-- HERO -->
+<!-- ============================= -->
+
+<header id="inicio"
+        class="hero d-flex align-items-center justify-content-center">
+
 
     <div class="text-center text-white">
 
-        <h1>PULSO DIGITAL</h1>
+
+        <!-- LOGO PRINCIPAL -->
+        <img src="img/logo.png"
+             alt="Pulso Digital"
+             class="hero-logo">
+
 
         <p>
             Mantenimiento profesional de PC, Impresoras,
             notebooks y netbooks.
         </p>
 
-        <a href="#servicios" class="btn btn-primary mt-3">
+
+        <a href="#servicios"
+           class="btn btn-primary mt-3">
+
             Solicitar servicio
+
         </a>
+
 
     </div>
 
+
 </header>
+
 
 
 <!-- ============================= -->
 <!-- SECCIÓN DE SERVICIOS -->
 <!-- ============================= -->
 
-<section id="servicios" class="py-5 bg-light">
+<section id="servicios"
+         class="py-5 bg-light">
+
 
     <div class="container">
+
 
         <h2 class="text-center mb-4">
             Servicios que ofrecemos
         </h2>
 
+
         <div class="row g-4">
 
 
-            <!-- Servicio 1 -->
+            <!-- ============================= -->
+            <!-- SERVICIO 1 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Mantenimiento%20de%20PC."
@@ -142,17 +205,21 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/mantenimiento.jpg"
                              class="card-img-top"
                              alt="Mantenimiento de PC">
+
 
                         <div class="card-body">
 
                             <h5 class="card-title">
                                 Mantenimiento de PC
                             </h5>
+
 
                             <p class="card-text">
                                 Limpieza, optimización, eliminación de virus
@@ -161,14 +228,20 @@
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 2 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 2 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Mantenimiento%20de%20Impresoras."
@@ -176,11 +249,14 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/impresora.jpg"
                              class="card-img-top"
                              alt="Mantenimiento de Impresora">
+
 
                         <div class="card-body">
 
@@ -188,20 +264,27 @@
                                 Mantenimiento de Impresoras
                             </h5>
 
+
                             <p class="card-text">
                                 Limpieza y optimización.
                             </p>
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 3 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 3 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Desbloqueo%20de%20Netbooks."
@@ -209,11 +292,14 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/netbook.jpg"
                              class="card-img-top"
                              alt="Desbloqueo de Netbooks">
+
 
                         <div class="card-body">
 
@@ -221,20 +307,27 @@
                                 Desbloqueo de Netbooks
                             </h5>
 
+
                             <p class="card-text">
                                 Desbloqueo definitivo de todos los modelos.
                             </p>
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 4 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 4 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Formateo%20con%20copia%20de%20seguridad."
@@ -242,17 +335,21 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/formateo.jpg"
                              class="card-img-top"
                              alt="Formateo de PC">
+
 
                         <div class="card-body">
 
                             <h5 class="card-title">
                                 Formateo con copia de seguridad
                             </h5>
+
 
                             <p class="card-text">
                                 Formateo completo, instalación de Windows,
@@ -261,14 +358,20 @@
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 5 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 5 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20la%20reparaci%C3%B3n%20de%20notebooks%20y%20netbooks."
@@ -276,17 +379,21 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/notebook_reparacion.jpg"
                              class="card-img-top"
                              alt="Reparación de Notebooks">
+
 
                         <div class="card-body">
 
                             <h5 class="card-title">
                                 Reparación de notebooks y netbooks
                             </h5>
+
 
                             <p class="card-text">
                                 Cambio de pantallas, teclados, baterías,
@@ -295,14 +402,20 @@
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 6 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 6 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20la%20Venta%20de%20software."
@@ -310,17 +423,21 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/software.jpg"
                              class="card-img-top"
                              alt="Venta de software">
+
 
                         <div class="card-body">
 
                             <h5 class="card-title">
                                 Venta de software
                             </h5>
+
 
                             <p class="card-text">
                                 Licencias originales de Windows, Office,
@@ -329,14 +446,20 @@
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 7 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 7 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20la%20Venta%20de%20insumos%20inform%C3%A1ticos."
@@ -344,17 +467,21 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/insumos.jpg"
                              class="card-img-top"
                              alt="Venta de insumos informáticos">
+
 
                         <div class="card-body">
 
                             <h5 class="card-title">
                                 Venta de insumos
                             </h5>
+
 
                             <p class="card-text">
                                 Mouses, teclados, cargadores, memorias,
@@ -363,14 +490,20 @@
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
             </div>
 
 
-            <!-- Servicio 8 -->
+
+            <!-- ============================= -->
+            <!-- SERVICIO 8 -->
+            <!-- ============================= -->
+
             <div class="col-md-4">
 
                 <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Desarrollo%20de%20sitios%20web."
@@ -378,17 +511,21 @@
                    rel="noopener noreferrer"
                    class="service-link">
 
+
                     <div class="card h-100 shadow-sm">
+
 
                         <img src="img/desarrollo-web.jpg"
                              class="card-img-top"
                              alt="Desarrollo de sitios web">
+
 
                         <div class="card-body">
 
                             <h5 class="card-title">
                                 Desarrollo de sitios web
                             </h5>
+
 
                             <p class="card-text">
                                 Creamos sitios web modernos, profesionales
@@ -397,7 +534,9 @@
 
                         </div>
 
+
                     </div>
+
 
                 </a>
 
@@ -411,17 +550,22 @@
 </section>
 
 
+
 <!-- ============================= -->
 <!-- SECCIÓN DE CONTACTO -->
 <!-- ============================= -->
 
-<section id="contacto" class="py-5">
+<section id="contacto"
+         class="py-5">
+
 
     <div class="container">
+
 
         <h2 class="text-center mb-4">
             Contacto
         </h2>
+
 
         <p class="text-center mb-5">
             ¿Necesitás un servicio o querés realizar una consulta?
@@ -442,13 +586,16 @@
 
                         <i class="bi bi-whatsapp text-success contact-icon"></i>
 
+
                         <h5 class="card-title">
                             WhatsApp
                         </h5>
 
+
                         <p class="card-text">
                             +54 9 380 450-7584
                         </p>
+
 
                         <a href="https://wa.me/5493804507584"
                            target="_blank"
@@ -467,6 +614,7 @@
             </div>
 
 
+
             <!-- INSTAGRAM -->
             <div class="col-md-6 col-lg-4">
 
@@ -476,13 +624,16 @@
 
                         <i class="bi bi-instagram text-danger contact-icon"></i>
 
+
                         <h5 class="card-title">
                             Instagram
                         </h5>
 
+
                         <p class="card-text">
                             Seguinos en Instagram
                         </p>
+
 
                         <a href="https://www.instagram.com/pulsodigital.lr/"
                            target="_blank"
@@ -501,6 +652,7 @@
             </div>
 
 
+
             <!-- FACEBOOK -->
             <div class="col-md-6 col-lg-4">
 
@@ -510,13 +662,16 @@
 
                         <i class="bi bi-facebook text-primary contact-icon"></i>
 
+
                         <h5 class="card-title">
                             Facebook
                         </h5>
 
+
                         <p class="card-text">
                             Encontranos en Facebook
                         </p>
+
 
                         <a href="https://www.facebook.com/profile.php?id=61583352606803"
                            target="_blank"
@@ -535,6 +690,7 @@
             </div>
 
 
+
             <!-- LINKEDIN -->
             <div class="col-md-6 col-lg-4">
 
@@ -544,13 +700,16 @@
 
                         <i class="bi bi-linkedin text-primary contact-icon"></i>
 
+
                         <h5 class="card-title">
                             LinkedIn
                         </h5>
 
+
                         <p class="card-text">
                             Conocé nuestro perfil profesional
                         </p>
+
 
                         <a href="https://www.linkedin.com/in/claudio-exequiel-rivadera-308611377/"
                            target="_blank"
@@ -569,6 +728,7 @@
             </div>
 
 
+
             <!-- GOOGLE MAPS -->
             <div class="col-md-6 col-lg-4">
 
@@ -578,14 +738,17 @@
 
                         <i class="bi bi-geo-alt-fill text-danger contact-icon"></i>
 
+
                         <h5 class="card-title">
                             Maps y opiniones de Google
                         </h5>
+
 
                         <p class="card-text">
                             Encontranos en Google Maps y
                             dejá tu opinión.
                         </p>
+
 
                         <a href="https://www.google.com/maps/place/Pulso+Digital+LR+-+Servicio+T%C3%A9cnico+de+PC+e+Impresoras/data=!4m2!3m1!1s0x0:0x44eb988b37d756ab?sa=X&ved=1t:2428&ictx=111&cshid=1790713234121948"
                            target="_blank"
@@ -611,9 +774,11 @@
 </section>
 
 
+
 <!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
+
 </html>
