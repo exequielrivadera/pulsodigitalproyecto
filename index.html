@@ -30,6 +30,24 @@
         font-size: 3.5rem;
         margin-bottom: 15px;
     }
+
+    /* Servicios clickeables */
+    .service-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        height: 100%;
+    }
+
+    .service-link .card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: pointer;
+    }
+
+    .service-link .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+    }
 </style>
 ```
 
@@ -120,26 +138,33 @@
             <!-- Servicio 1 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Mantenimiento%20de%20PC."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/mantenimiento.jpg"
-                         class="card-img-top"
-                         alt="Mantenimiento de PC">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/mantenimiento.jpg"
+                             class="card-img-top"
+                             alt="Mantenimiento de PC">
 
-                        <h5 class="card-title">
-                            Mantenimiento de PC
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Limpieza, optimización, eliminación de virus
-                            y puesta a punto del sistema.
-                        </p>
+                            <h5 class="card-title">
+                                Mantenimiento de PC
+                            </h5>
+
+                            <p class="card-text">
+                                Limpieza, optimización, eliminación de virus
+                                y puesta a punto del sistema.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
@@ -147,25 +172,32 @@
             <!-- Servicio 2 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Mantenimiento%20de%20Impresoras."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/impresora.jpg"
-                         class="card-img-top"
-                         alt="Mantenimiento de Impresora">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/impresora.jpg"
+                             class="card-img-top"
+                             alt="Mantenimiento de Impresora">
 
-                        <h5 class="card-title">
-                            Mantenimiento de Impresoras
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Limpieza y optimización.
-                        </p>
+                            <h5 class="card-title">
+                                Mantenimiento de Impresoras
+                            </h5>
+
+                            <p class="card-text">
+                                Limpieza y optimización.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
@@ -173,25 +205,32 @@
             <!-- Servicio 3 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Desbloqueo%20de%20Netbooks."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/netbook.jpg"
-                         class="card-img-top"
-                         alt="Desbloqueo de Netbooks">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/netbook.jpg"
+                             class="card-img-top"
+                             alt="Desbloqueo de Netbooks">
 
-                        <h5 class="card-title">
-                            Desbloqueo de Netbooks
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Desbloqueo definitivo de todos los modelos.
-                        </p>
+                            <h5 class="card-title">
+                                Desbloqueo de Netbooks
+                            </h5>
+
+                            <p class="card-text">
+                                Desbloqueo definitivo de todos los modelos.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
@@ -199,26 +238,33 @@
             <!-- Servicio 4 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Formateo%20con%20copia%20de%20seguridad."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/formateo.jpg"
-                         class="card-img-top"
-                         alt="Formateo de PC">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/formateo.jpg"
+                             class="card-img-top"
+                             alt="Formateo de PC">
 
-                        <h5 class="card-title">
-                            Formateo con copia de seguridad
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Formateo completo, instalación de Windows,
-                            drivers y backup de archivos.
-                        </p>
+                            <h5 class="card-title">
+                                Formateo con copia de seguridad
+                            </h5>
+
+                            <p class="card-text">
+                                Formateo completo, instalación de Windows,
+                                drivers y backup de archivos.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
@@ -226,26 +272,33 @@
             <!-- Servicio 5 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20la%20reparaci%C3%B3n%20de%20notebooks%20y%20netbooks."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/notebook_reparacion.jpg"
-                         class="card-img-top"
-                         alt="Reparación de Notebooks">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/notebook_reparacion.jpg"
+                             class="card-img-top"
+                             alt="Reparación de Notebooks">
 
-                        <h5 class="card-title">
-                            Reparación de notebooks y netbooks
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Cambio de pantallas, teclados, baterías,
-                            limpieza interna y más.
-                        </p>
+                            <h5 class="card-title">
+                                Reparación de notebooks y netbooks
+                            </h5>
+
+                            <p class="card-text">
+                                Cambio de pantallas, teclados, baterías,
+                                limpieza interna y más.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
@@ -253,26 +306,33 @@
             <!-- Servicio 6 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20la%20Venta%20de%20software."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/software.jpg"
-                         class="card-img-top"
-                         alt="Venta de software">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/software.jpg"
+                             class="card-img-top"
+                             alt="Venta de software">
 
-                        <h5 class="card-title">
-                            Venta de software
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Licencias originales de Windows, Office,
-                            antivirus y más.
-                        </p>
+                            <h5 class="card-title">
+                                Venta de software
+                            </h5>
+
+                            <p class="card-text">
+                                Licencias originales de Windows, Office,
+                                antivirus y más.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
@@ -280,58 +340,69 @@
             <!-- Servicio 7 -->
             <div class="col-md-4">
 
-                <div class="card h-100 shadow-sm">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20la%20Venta%20de%20insumos%20inform%C3%A1ticos."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
-                    <img src="img/insumos.jpg"
-                         class="card-img-top"
-                         alt="Venta de insumos informáticos">
+                    <div class="card h-100 shadow-sm">
 
-                    <div class="card-body">
+                        <img src="img/insumos.jpg"
+                             class="card-img-top"
+                             alt="Venta de insumos informáticos">
 
-                        <h5 class="card-title">
-                            Venta de insumos
-                        </h5>
+                        <div class="card-body">
 
-                        <p class="card-text">
-                            Mouses, teclados, cargadores, memorias,
-                            pendrives, repuestos y accesorios.
-                        </p>
+                            <h5 class="card-title">
+                                Venta de insumos
+                            </h5>
+
+                            <p class="card-text">
+                                Mouses, teclados, cargadores, memorias,
+                                pendrives, repuestos y accesorios.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </a>
 
             </div>
 
 
             <!-- Servicio 8 -->
+            <div class="col-md-4">
 
-<div class="col-md-4">
+                <a href="https://wa.me/5493804507584?text=Hola%2C%20quisiera%20consultar%20por%20el%20servicio%20de%20Desarrollo%20de%20sitios%20web."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="service-link">
 
+                    <div class="card h-100 shadow-sm">
 
-<div class="card h-100 shadow-sm">
+                        <img src="img/desarrollo-web.jpg"
+                             class="card-img-top"
+                             alt="Desarrollo de sitios web">
 
-    <img src="img/desarrollo-web.jpg"
-         class="card-img-top"
-         alt="Desarrollo de sitios web">
+                        <div class="card-body">
 
-    <div class="card-body">
+                            <h5 class="card-title">
+                                Desarrollo de sitios web
+                            </h5>
 
-        <h5 class="card-title">
-            Desarrollo de sitios web
-        </h5>
+                            <p class="card-text">
+                                Creamos sitios web modernos, profesionales
+                                y adaptados a celulares para potenciar tu negocio.
+                            </p>
 
-        <p class="card-text">
-            Creamos sitios web modernos, profesionales
-            y adaptados a celulares para potenciar tu negocio.
-        </p>
+                        </div>
 
-    </div>
+                    </div>
 
-</div>
+                </a>
 
-
-</div>
+            </div>
 
 
         </div>
